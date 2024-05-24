@@ -1,0 +1,2375 @@
+This is LuaHBTeX, Version 1.18.0 (MiKTeX 24.3) (format=lualatex 2024.4.28)  23 MAY 2024 17:54
+ restricted system commands enabled.
+**first_exposed.tex
+(./first_exposed.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/yokwe/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Program Files/MiKTeX/tex/luatex/luaotfload/fontloader-2023-12-28.
+lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/yokwe/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. ("C:/Program Files/MiKT
+eX/tex/latex/beamer/beamer.cls"
+Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasemodes.sty"
+("C:/Program Files/MiKTeX/tex/latex/etoolbox/etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count186
+)
+\beamer@tempbox=\box51
+\beamer@tempcount=\count187
+\c@beamerpauses=\count188
+
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasedecode.sty"
+\beamer@slideinframe=\count189
+\beamer@minimum=\count190
+\beamer@decode@box=\box52
+)
+\beamer@commentbox=\box53
+\beamer@modecount=\count191
+)
+("C:/Program Files/MiKTeX/tex/generic/iftex/iftex.sty"
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\headdp=\dimen139
+\footheight=\dimen140
+\sidebarheight=\dimen141
+\beamer@tempdim=\dimen142
+\beamer@finalheight=\dimen143
+\beamer@animht=\dimen144
+\beamer@animdp=\dimen145
+\beamer@animwd=\dimen146
+\beamer@leftmargin=\dimen147
+\beamer@rightmargin=\dimen148
+\beamer@leftsidebar=\dimen149
+\beamer@rightsidebar=\dimen150
+\beamer@boxsize=\dimen151
+\beamer@vboxoffset=\dimen152
+\beamer@descdefault=\dimen153
+\beamer@descriptionwidth=\dimen154
+\beamer@lastskip=\skip48
+\beamer@areabox=\box54
+\beamer@animcurrent=\box55
+\beamer@animshowbox=\box56
+\beamer@sectionbox=\box57
+\beamer@logobox=\box58
+\beamer@linebox=\box59
+\beamer@sectioncount=\count192
+\beamer@subsubsectionmax=\count193
+\beamer@subsectionmax=\count194
+\beamer@sectionmax=\count195
+\beamer@totalheads=\count196
+\beamer@headcounter=\count197
+\beamer@partstartpage=\count198
+\beamer@sectionstartpage=\count199
+\beamer@subsectionstartpage=\count266
+\beamer@animationtempa=\count267
+\beamer@animationtempb=\count268
+\beamer@xpos=\count269
+\beamer@ypos=\count270
+\beamer@ypos@offset=\count271
+\beamer@showpartnumber=\count272
+\beamer@currentsubsection=\count273
+\beamer@coveringdepth=\count274
+\beamer@sectionadjust=\count275
+\beamer@toclastsection=\count276
+\beamer@tocsectionnumber=\count277
+
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseoptions.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/keyval.sty"
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+))
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
+
+("C:/Program Files/MiKTeX/tex/latex/geometry/geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks18
+
+("C:/Program Files/MiKTeX/tex/latex/geometry/geometry.cfg"))
+("C:/Program Files/MiKTeX/tex/latex/pgf/math/pgfmath.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex"
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen163
+\pgfutil@tempdimb=\dimen164
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box60
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfrcs.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/pgf.revision.tex")
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code
+.tex"
+\pgfkeys@tmptoks=\toks22
+))) ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmath.code.tex"
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex"
+\pgf@x=\dimen165
+\pgf@xa=\dimen166
+\pgf@xb=\dimen167
+\pgf@xc=\dimen168
+\pgf@y=\dimen169
+\pgf@ya=\dimen170
+\pgf@yb=\dimen171
+\pgf@yc=\dimen172
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count285
+\pgfmath@box=\box61
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.comparison.code
+.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.base.code.tex") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.round.code.tex") ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.integerarithmet
+ics.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count286
+)))
+("C:/Program Files/MiKTeX/tex/latex/base/size11.clo"
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/yokwe/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty"
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphicx.sty"
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX/tex/latex/graphics/graphics.sty"
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX/tex/latex/graphics/trig.sty"
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+("C:/Program Files/MiKTeX/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+)
+("C:/Program Files/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys.code.tex"
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen176
+\pgf@y=\dimen177
+\pgf@xa=\dimen178
+\pgf@ya=\dimen179
+\pgf@xb=\dimen180
+\pgf@yb=\dimen181
+\pgf@xc=\dimen182
+\pgf@yc=\dimen183
+\pgf@xd=\dimen184
+\pgf@yd=\dimen185
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count291
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg"
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-luatex.def"
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+"
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) ("C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty"
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+("C:/Program Files/MiKTeX/tex/latex/graphics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+("C:/Program Files/MiKTeX/tex/latex/graphics/mathcolor.ltx")
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcore.code.tex"
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen186
+\pgf@picmaxx=\dimen187
+\pgf@picminy=\dimen188
+\pgf@picmaxy=\dimen189
+\pgf@pathminx=\dimen190
+\pgf@pathmaxx=\dimen191
+\pgf@pathminy=\dimen192
+\pgf@pathmaxy=\dimen193
+\pgf@xx=\dimen194
+\pgf@xy=\dimen195
+\pgf@yx=\dimen196
+\pgf@yy=\dimen197
+\pgf@zx=\dimen198
+\pgf@zy=\dimen199
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.
+tex"
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen256
+\pgf@path@lasty=\dimen257
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen258
+\pgf@shorten@start@additional=\dimen259
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count294
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.t
+ex"
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen260
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransformations.cod
+e.tex"
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen261
+\pgf@pt@y=\dimen262
+\pgf@pt@temp=\dimen263
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code
+.tex"
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen264
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen265
+\pgf@sys@shading@range@num=\count295
+\pgf@shadingcount=\count296
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoretransparency.code.t
+ex"
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/xxcolor.sty"
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count297
+\XC@countmixins=\count298
+)
+("C:/Program Files/MiKTeX/tex/latex/base/atbegshi-ltx.sty"
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+("C:/Program Files/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty"
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+("C:/Program Files/MiKTeX/tex/generic/kvdefinekeys/kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:/Program Files/MiKTeX/tex/generic/pdfescape/pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+("C:/Program Files/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty"
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+("C:/Program Files/MiKTeX/tex/generic/pdftexcmds/pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:/Program Files/MiKTeX/tex/generic/infwarerr/infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks29
+))
+("C:/Program Files/MiKTeX/tex/latex/hycolor/hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:/Program Files/MiKTeX/tex/latex/auxhook/auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:/Program Files/MiKTeX/tex/latex/hyperref/nameref.sty"
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+("C:/Program Files/MiKTeX/tex/latex/refcount/refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:/Program Files/MiKTeX/tex/generic/gettitlestring/gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+("C:/Program Files/MiKTeX/tex/latex/kvoptions/kvoptions.sty"
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+)
+\@linkdim=\dimen266
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
+
+("C:/Program Files/MiKTeX/tex/latex/hyperref/pd1enc.def"
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+)
+("C:/Program Files/MiKTeX/tex/generic/intcalc/intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count302
+
+("C:/Program Files/MiKTeX/tex/latex/hyperref/puenc.def"
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4062.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4062.
+Package hyperref Info: Option `implicit' set `false' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count303
+
+("C:/Program Files/MiKTeX/tex/latex/url/url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen267
+
+("C:/Program Files/MiKTeX/tex/generic/bitset/bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:/Program Files/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count304
+\Field@Width=\dimen268
+\Fld@charsize=\dimen269
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Hy@abspage=\count305
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+ ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
+File: hluatex.def 2024-01-20 v7.01h Hyperref driver for luaTeX
+
+("C:/Program Files/MiKTeX/tex/generic/stringenc/stringenc.sty"
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+("C:/Program Files/MiKTeX/tex/latex/base/atveryend-ltx.sty"
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+("C:/Program Files/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty"
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+("C:/Program Files/MiKTeX/tex/generic/uniquecounter/uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaserequires.sty"
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasecompatibility.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasefont.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsfonts/amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:/Program Files/MiKTeX/tex/latex/amsfonts/amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks30
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:/Program Files/MiKTeX/tex/latex/sansmathaccent/sansmathaccent.sty"
+Package: sansmathaccent 2020/01/31
+
+("C:/Program Files/MiKTeX/tex/latex/koma-script/scrlfile.sty"
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+("C:/Program Files/MiKTeX/tex/latex/koma-script/scrlfile-hook.sty"
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+("C:/Program Files/MiKTeX/tex/latex/koma-script/scrlogo.sty"
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasetranslator.sty"
+("C:/Program Files/MiKTeX/tex/latex/translator/translator.sty"
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasemisc.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasetwoscreens.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseoverlay.sty"
+\beamer@argscount=\count308
+\beamer@lastskipcover=\skip51
+\beamer@trivlistdepth=\count309
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasetitle.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasesection.sty"
+\c@lecture=\count310
+\c@part=\count311
+\c@section=\count312
+\c@subsection=\count313
+\c@subsubsection=\count314
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseframe.sty"
+\beamer@framebox=\box66
+\beamer@frametitlebox=\box67
+\beamer@zoombox=\box68
+\beamer@zoomcount=\count315
+\beamer@zoomframecount=\count316
+\beamer@frametextheight=\dimen270
+\c@subsectionslide=\count317
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
+\beamer@envbody=\toks31
+\framewidth=\dimen271
+\c@framenumber=\count318
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseverbatim.sty"
+\beamer@verbatimfileout=\write4
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseframesize.sty"
+\beamer@splitbox=\box69
+\beamer@autobreakcount=\count319
+\beamer@autobreaklastheight=\dimen272
+\beamer@frametitletoks=\toks32
+\beamer@framesubtitletoks=\toks33
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseframecomponents.sty"
+\beamer@footins=\box70
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasecolor.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasenotes.sty"
+\beamer@frameboxcopy=\box71
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasetoc.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasetemplates.sty"
+\beamer@sbttoks=\toks34
+
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseauxtemplates.sty"
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaseboxes.sty"
+\bmb@box=\box72
+\bmb@colorbox=\box73
+\bmb@boxwidth=\dimen273
+\bmb@boxheight=\dimen274
+\bmb@prevheight=\dimen275
+\bmb@temp=\dimen276
+\bmb@dima=\dimen277
+\bmb@dimb=\dimen278
+\bmb@prevheight=\dimen279
+)
+\beamer@blockheadheight=\dimen280
+))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbaselocalstructure.sty"
+("C:/Program Files/MiKTeX/tex/latex/tools/enumerate.sty"
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks35
+)
+\beamer@bibiconwidth=\skip56
+\c@figure=\count320
+\c@table=\count321
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasenavigation.sty"
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasenavigationsymbols.tex")
+\beamer@section@min@dim=\dimen281
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasetheorems.sty"
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsmath.sty"
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amstext.sty"
+Package: amstext 2021/08/26 v2.01 AMS text
+
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen282
+))
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen283
+)
+("C:/Program Files/MiKTeX/tex/latex/amsmath/amsopn.sty"
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count322
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count323
+\leftroot@=\count324
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count325
+\DOTSCASE@=\count326
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box74
+\strutbox@=\box75
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen284
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count327
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count328
+\dotsspace@=\muskip17
+\c@parentequation=\count329
+\dspbrk@lvl=\count330
+\tag@help=\toks37
+\row@=\count331
+\column@=\count332
+\maxfields@=\count333
+\andhelp@=\toks38
+\eqnshift@=\dimen285
+\alignsep@=\dimen286
+\tagshift@=\dimen287
+\tagwidth@=\dimen288
+\totwidth@=\dimen289
+\lineht@=\dimen290
+\@envbody=\toks39
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+("C:/Program Files/MiKTeX/tex/latex/amscls/amsthm.sty"
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks46
+)
+\c@theorem=\count334
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerbasethemes.sty"))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerthemedefault.sty"
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerfontthemedefault.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamercolorthemedefault.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerinnerthemedefault.sty"
+\beamer@dima=\dimen291
+\beamer@dimb=\dimen292
+)
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerouterthemedefault.sty")))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerthemeEastLansing.sty"
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerinnerthemerounded.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerouterthemeinfolines.sty")
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamercolorthemespruce.sty"))
+("C:/Program Files/MiKTeX/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty
+") ("C:/Program Files/MiKTeX/tex/latex/base/inputenc.sty"
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) ("C:/Program Files/MiKTeX/tex/latex/base/fontenc.sty"
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+12.
+
+("C:/Program Files/MiKTeX/tex/latex/lm/t1lmss.fd"
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+("C:/Program Files/MiKTeX/tex/latex/lm/lmodern.sty"
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:/Program Files/MiKTeX/tex/latex/base/textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:/Program Files/MiKTeX/tex/latex/wrapfig/wrapfig.sty"
+\wrapoverhang=\dimen293
+\WF@size=\dimen294
+\c@WF@wrappedlines=\count335
+\WF@box=\box76
+\WF@everypar=\toks49
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:/Program Files/MiKTeX/tex/generic/babel/babel.sty"
+Package: babel 2024/02/07 v24.2 The Babel package
+
+("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def"
+\bbl@readstream=\read3
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language3
+\l@armenian=\language4
+\l@assamese=\language5
+\l@basque=\language6
+\l@belarusian=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@churchslavonic=\language12
+\l@classiclatin=\language13
+\l@coptic=\language14
+\l@croatian=\language15
+\l@czech=\language16
+\l@danish=\language17
+\l@dutch=\language18
+\l@esperanto=\language19
+\l@estonian=\language20
+\l@ethiopic=\language21
+\l@finnish=\language22
+\l@french=\language23
+\l@friulan=\language24
+\l@galician=\language25
+\l@georgian=\language26
+\l@german=\language27
+\l@greek=\language28
+\l@gujarati=\language29
+\l@hindi=\language30
+\l@hungarian=\language31
+\l@icelandic=\language32
+\l@indonesian=\language33
+\l@interlingua=\language34
+\l@irish=\language35
+\l@italian=\language36
+\l@kannada=\language37
+\l@kurmanji=\language38
+\l@latin=\language39
+\l@latvian=\language40
+\l@lithuanian=\language41
+\l@liturgicallatin=\language42
+\l@macedonian=\language43
+\l@malayalam=\language44
+\l@marathi=\language45
+\l@mongolian=\language46
+\l@mongolianlmc=\language47
+\l@monogreek=\language48
+\l@ngerman=\language49
+\l@nynorsk=\language50
+\l@occitan=\language51
+\l@oriya=\language52
+\l@pali=\language53
+\l@panjabi=\language54
+\l@piedmontese=\language55
+\l@polish=\language56
+\l@portuguese=\language57
+\l@romanian=\language58
+\l@romansh=\language59
+\l@russian=\language60
+\l@sanskrit=\language61
+\l@serbian=\language62
+\l@serbianc=\language63
+\l@slovak=\language64
+\l@slovenian=\language65
+\l@spanish=\language66
+\l@swedish=\language67
+\l@swissgerman=\language68
+\l@tamil=\language69
+\l@telugu=\language70
+\l@thai=\language71
+\l@turkish=\language72
+\l@turkmen=\language73
+\l@ukenglish=\language74
+\l@ukrainian=\language75
+\l@uppersorbian=\language76
+\l@usenglishmax=\language77
+\l@welsh=\language78
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count336
+\U@D=\dimen295
+\l@unhyphenated=\language79
+
+("C:/Program Files/MiKTeX/tex/generic/babel/luababel.def"
+\bbl@attr@locale=\attribute4
+)
+LaTeX Info: Redefining \textlatin on input line 3919.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:/Program Files/MiKTeX/tex/latex/arabi/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:/Program Files/MiKTeX/tex/generic/babel-french/french.ldf"
+Language: french 2024-02-29 v3.5s French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language23). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language23). Reported on input line 92.
+\FB@stdchar=\count337
+\FB@spacing=\attribute5
+\FB@addDPspace=\attribute6
+\FB@addGUILspace=\attribute7
+\FB@ucsNBSP=\attribute8
+\FB@dialect=\attribute9
+Package french.ldf Info: No need for active punctuation characters
+(french.ldf)             with this version of LuaTeX!
+(french.ldf)             reported on input line 250.
+\FBguill@level=\count338
+\FBold@everypar=\toks50
+\FB@Mht=\dimen296
+\mc@charclass=\count339
+\mc@charfam=\count340
+\mc@charslot=\count341
+\std@mcc=\count342
+\dec@mcc=\count343
+Inserting `frenchb.french_punctuation' in `kerning'.
+\FB@parskip=\dimen297
+\listindentFB=\dimen298
+\descindentFB=\dimen299
+\labelindentFB=\dimen300
+\labelwidthFB=\dimen301
+\leftmarginFB=\dimen302
+\parindentFFN=\dimen303
+\FBfnindent=\dimen304
+
+("C:/Program Files/MiKTeX/tex/generic/hyph-utf8/loadhyph/loadhyph-fr.tex"
+UTF-8 French hyphenation patterns
+("C:/Program Files/MiKTeX/tex/generic/hyph-utf8/patterns/tex/hyph-fr.tex")
+("C:/Program Files/MiKTeX/tex/generic/hyph-utf8/patterns/quote/hyph-quote-fr.te
+x"))) ("C:/Program Files/MiKTeX/tex/latex/babel-english/english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language74). Reported on input line 108.
+))
+("C:/Program Files/MiKTeX/tex/generic/babel/locale/en/babel-english.tex"
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+("C:/Program Files/MiKTeX/tex/generic/babel/locale/fr/babel-french.tex"
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+("C:/Program Files/MiKTeX/tex/latex/carlisle/scalefnt.sty")
+("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
+("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box77
+)
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen305
+\pgf@nodesepend=\dimen306
+) ("C:/Program Files/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y"
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgffor.sty"
+("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgffor.code.tex"
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen307
+\pgffor@skip=\dimen308
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+))
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
+.tex"
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen309
+)
+\tikz@lastx=\dimen310
+\tikz@lasty=\dimen311
+\tikz@lastxsaved=\dimen312
+\tikz@lastysaved=\dimen313
+\tikz@lastmovetox=\dimen314
+\tikz@lastmovetoy=\dimen315
+\tikzleveldistance=\dimen316
+\tikzsiblingdistance=\dimen317
+\tikz@figbox=\box78
+\tikz@figbox@bg=\box79
+\tikz@tempbox=\box80
+\tikz@tempbox@bg=\box81
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
+)
+\tikz@expandcount=\count352
+
+("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
+arytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) ("C:/Program Files/MiKTeX/tex/latex/listing/listing.sty"
+Package: listing 1999/05/25
+
+Package `listing', V1.2, <1999/05/25>
+\c@listing=\count353
+) ("C:/Program Files/MiKTeX/tex/latex/listings/listings.sty"
+\lst@mode=\count354
+\lst@gtempboxa=\box82
+\lst@token=\toks53
+\lst@length=\count355
+\lst@currlwidth=\dimen318
+\lst@column=\count356
+\lst@pos=\count357
+\lst@lostspace=\dimen319
+\lst@width=\dimen320
+\lst@newlines=\count358
+\lst@lineno=\count359
+\lst@maxwidth=\dimen321
+
+("C:/Program Files/MiKTeX/tex/latex/listings/lstpatch.sty"
+File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
+)
+("C:/Program Files/MiKTeX/tex/latex/listings/lstmisc.sty"
+File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
+\c@lstnumber=\count360
+\lst@skipnumbers=\count361
+\lst@framebox=\box83
+)
+("C:/Program Files/MiKTeX/tex/latex/listings/listings.cfg"
+File: listings.cfg 2024/03/11 1.10a listings configuration
+))
+Package: listings 2024/03/11 1.10a (Carsten Heinz)
+
+("C:/Program Files/MiKTeX/tex/latex/listingsutf8/listingsutf8.sty"
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+)
+("C:/Program Files/MiKTeX/tex/latex/lipsum/lipsum.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3packages/l3keys2e/l3keys2e.sty"
+("C:/Program Files/MiKTeX/tex/latex/l3kernel/expl3.sty"
+Package: expl3 2024-03-14 L3 programming layer (loader) 
+
+("C:/Program Files/MiKTeX/tex/latex/l3backend/l3backend-luatex.def"
+File: l3backend-luatex.def 2024-03-14 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count362
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box84
+))
+Package: l3keys2e 2024-03-14 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count363
+\l__lipsum_a_int=\count364
+\l__lipsum_b_int=\count365
+
+("C:/Program Files/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex"))
+("C:/Program Files/MiKTeX/tex/latex/tcolorbox/tcolorbox.sty"
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+("C:/Program Files/MiKTeX/tex/latex/tools/verbatim.sty"
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks54
+\verbatim@line=\toks55
+\verbatim@in@stream=\read4
+)
+("C:/Program Files/MiKTeX/tex/latex/environ/environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("C:/Program Files/MiKTeX/tex/latex/trimspaces/trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box85
+\tcb@upperbox=\box86
+\tcb@lowerbox=\box87
+\tcb@phantombox=\box88
+\c@tcbbreakpart=\count366
+\c@tcblayer=\count367
+\c@tcolorbox@number=\count368
+\l__tcobox_tmpa_box=\box89
+\l__tcobox_tmpa_dim=\dimen322
+\tcb@temp=\box90
+\tcb@temp=\box91
+\tcb@temp=\box92
+\tcb@temp=\box93
+
+("C:/Program Files/MiKTeX/tex/latex/tcolorbox/tcbbreakable.code.tex"
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+("C:/Program Files/MiKTeX/tex/latex/pdfcol/pdfcol.sty"
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box94
+\tcb@totalupperbox=\box95
+\tcb@totallowerbox=\box96
+
+("C:/Program Files/MiKTeX/tex/generic/iftex/ifluatex.sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+("C:/Program Files/MiKTeX/tex/latex/tcolorbox/tcbskins.code.tex"
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+("C:/Program Files/MiKTeX/tex/latex/tikzfill/tikzfill.image.sty"
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+("C:/Program Files/MiKTeX/tex/latex/tikzfill/tikzfill-common.sty"
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+("C:/Program Files/MiKTeX/tex/latex/tikzfill/tikzlibraryfill.image.code.tex"
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box97
+))
+("C:/Program Files/MiKTeX/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex"
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+))) ("C:/Program Files/MiKTeX/tex/latex/beamer/beamercolorthemestructure.sty")
+("C:/Program Files/MiKTeX/tex/latex/ragged2e/ragged2e.sty"
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip65
+\RaggedLeftLeftskip=\skip66
+\RaggedRightLeftskip=\skip67
+\CenteringRightskip=\skip68
+\RaggedLeftRightskip=\skip69
+\RaggedRightRightskip=\skip70
+\CenteringParfillskip=\skip71
+\RaggedLeftParfillskip=\skip72
+\RaggedRightParfillskip=\skip73
+\JustifyingParfillskip=\skip74
+\CenteringParindent=\skip75
+\RaggedLeftParindent=\skip76
+\RaggedRightParindent=\skip77
+\JustifyingParindent=\skip78
+)
+("C:/Program Files/MiKTeX/tex/latex/tools/multicol.sty"
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count369
+\mult@box=\box98
+\multicol@leftmargin=\dimen323
+\c@unbalance=\count370
+\c@collectmore=\count371
+\doublecol@number=\count372
+\multicoltolerance=\count373
+\multicolpretolerance=\count374
+\full@width=\dimen324
+\page@free=\dimen325
+\premulticols=\dimen326
+\postmulticols=\dimen327
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box99
+\last@line=\box100
+\mc@boxedresult=\box101
+\maxbalancingoverflow=\dimen328
+\mult@rightbox=\box102
+\mult@grightbox=\box103
+\mult@firstbox=\box104
+\mult@gfirstbox=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\c@minrows=\count375
+\c@columnbadness=\count376
+\c@finalcolumnbadness=\count377
+\last@try=\dimen329
+\multicolovershoot=\dimen330
+\multicolundershoot=\dimen331
+\mult@nat@firstbox=\box142
+\colbreak@box=\box143
+\mc@col@check@num=\count378
+) (./first_exposed.aux)
+\openout1 = first_exposed.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+4.
+("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95pt, 342.29536pt, 10.95pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.29536pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31999pt
+* \evensidemargin=-61.31999pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count379
+\scratchdimen=\dimen332
+\scratchbox=\box144
+\nofMPsegments=\count380
+\nofMParguments=\count381
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count382
+\MPscratchDim=\dimen333
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
+\everyMPtoPDFconversion=\toks57
+) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+("C:/Program Files/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg"
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 54.
+(./first_exposed.out) (./first_exposed.out)
+\@outlinefile=\write5
+
+\openout5 = first_exposed.out
+
+("C:/Program Files/MiKTeX/tex/latex/translator/translator-basic-dictionary-Engl
+ish.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:/Program Files/MiKTeX/tex/latex/translator/translator-bibliography-dictiona
+ry-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("C:/Program Files/MiKTeX/tex/latex/translator/translator-environment-dictionar
+y-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("C:/Program Files/MiKTeX/tex/latex/translator/translator-months-dictionary-Eng
+lish.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("C:/Program Files/MiKTeX/tex/latex/translator/translator-numbers-dictionary-En
+glish.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("C:/Program Files/MiKTeX/tex/latex/translator/translator-theorem-dictionary-En
+glish.dict"
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \degres on input line 54.
+LaTeX Info: Redefining \up on input line 54.
+\c@lstlisting=\count385
+(./first_exposed.nav)
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 54--54
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 74--74
+ [][][][]  
+ []
+
+<logo_iug.png, id=74, 183.68625pt x 150.5625pt>
+File: logo_iug.png Graphic file (type png)
+<use logo_iug.png>
+Package luatex.def Info: logo_iug.png  used on input line 74.
+(luatex.def)             Requested size: 64.29114pt x 52.69765pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
+4.
+("C:/Program Files/MiKTeX/tex/latex/lm/ot1lmr.fd"
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
+4.
+("C:/Program Files/MiKTeX/tex/latex/lm/omllmm.fd"
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+74.
+("C:/Program Files/MiKTeX/tex/latex/lm/omslmsy.fd"
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+74.
+("C:/Program Files/MiKTeX/tex/latex/lm/omxlmex.fd"
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+
+("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+
+("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<logo_ista.png, id=75, 237.88875pt x 160.6pt>
+File: logo_ista.png Graphic file (type png)
+<use logo_ista.png>
+Package luatex.def Info: logo_ista.png  used on input line 74.
+(luatex.def)             Requested size: 71.36716pt x 48.18036pt.
+
+Overfull \hbox (37.13554pt too wide) in paragraph at lines 74--74
+[][] 
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[1
+
+{C:/Users/yokwe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./logo_iug.png
+><./logo_ista.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 93--93
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[2
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 97--97
+ [][][][]  
+ []
+
+(./first_exposed.toc)
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[3
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 124--124
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[4
+
+Missing character: There is no … (U+2026) in font ec-lmss10!
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 128--128
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[5
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 134--134
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 143--143
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[7
+
+Missing character: There is no ’ (U+2019) in font ec-lmss10!
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 154--154
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 160--160
+ [][][][]  
+ []
+
+<arduino.png, id=329, 781.92125pt x 646.415pt>
+File: arduino.png Graphic file (type png)
+<use arduino.png>
+Package luatex.def Info: arduino.png  used on input line 160.
+(luatex.def)             Requested size: 342.29254pt x 199.52846pt.
+
+Overfull \vbox (1.52411pt too high) detected at line 160
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+<./arduino.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 164--164
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 171--171
+ [][][][]  
+ []
+
+<HC-05.png, id=387, 552.0625pt x 393.47pt>
+File: HC-05.png Graphic file (type png)
+<use HC-05.png>
+Package luatex.def Info: HC-05.png  used on input line 171.
+(luatex.def)             Requested size: 342.3089pt x 174.58626pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+<./HC-05.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 176--176
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 188--188
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 195--195
+ [][][][]  
+ []
+
+<dht11.jpg, id=474, 346.29375pt x 146.5475pt>
+File: dht11.jpg Graphic file (type jpg)
+<use dht11.jpg>
+Package luatex.def Info: dht11.jpg  used on input line 195.
+(luatex.def)             Requested size: 308.07364pt x 124.70682pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+<./dht11.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 203--203
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 213--213
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 219--219
+ [][][][]  
+ []
+
+<relais.png, id=559, 523.9575pt x 323.70938pt>
+File: relais.png Graphic file (type png)
+<use relais.png>
+Package luatex.def Info: relais.png  used on input line 219.
+(luatex.def)             Requested size: 273.84259pt x 174.58806pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
+
+<./relais.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 225--225
+ [][][][]  
+ []
+
+<relaissym.png, id=589, 431.6125pt x 401.5pt>
+File: relaissym.png Graphic file (type png)
+<use relaissym.png>
+Package luatex.def Info: relaissym.png  used on input line 225.
+(luatex.def)             Requested size: 239.60045pt x 174.58981pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[18
+
+<./relaissym.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 234--234
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 241--241
+ [][][][]  
+ []
+
+<disj.png, id=647, 225.84375pt x 225.84375pt>
+File: disj.png Graphic file (type png)
+<use disj.png>
+Package luatex.def Info: disj.png  used on input line 241.
+(luatex.def)             Requested size: 225.84319pt x 225.84319pt.
+
+Overfull \vbox (27.83884pt too high) detected at line 241
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
+
+<./disj.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 247--247
+ [][][][]  
+ []
+
+<disjsym.jpg, id=677, 803.0pt x 401.5pt>
+File: disjsym.jpg Graphic file (type jpg)
+<use disjsym.jpg>
+Package luatex.def Info: disjsym.jpg  used on input line 247.
+(luatex.def)             Requested size: 205.38106pt x 149.64929pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
+
+<./disjsym.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 251--251
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 257--257
+ [][][][]  
+ []
+
+<boite.jpg, id=735, 144.54pt x 144.54pt>
+File: boite.jpg Graphic file (type jpg)
+<use boite.jpg>
+Package luatex.def Info: boite.jpg  used on input line 257.
+(luatex.def)             Requested size: 144.53963pt x 144.53963pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
+
+<./boite.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 261--261
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[24
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 268--268
+ [][][][]  
+ []
+
+<lampe.png, id=792, 471.26062pt x 329.73187pt>
+File: lampe.png Graphic file (type png)
+<use lampe.png>
+Package luatex.def Info: lampe.png  used on input line 268.
+(luatex.def)             Requested size: 205.37782pt x 149.65088pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
+
+<./lampe.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 278--278
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[26
+
+Missing character: There is no ’ (U+2019) in font ec-lmss10!
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 284--284
+ [][][][]  
+ []
+
+<douille.jpg, id=850, 169.38281pt x 164.86594pt>
+File: douille.jpg Graphic file (type jpg)
+<use douille.jpg>
+Package luatex.def Info: douille.jpg  used on input line 284.
+(luatex.def)             Requested size: 169.38239pt x 164.86551pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[27
+
+<./douille.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 288--288
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[28
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 294--294
+ [][][][]  
+ []
+
+<prise.jpg, id=907, 803.0pt x 803.0pt>
+File: prise.jpg Graphic file (type jpg)
+<use prise.jpg>
+Package luatex.def Info: prise.jpg  used on input line 294.
+(luatex.def)             Requested size: 205.38106pt x 149.64317pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[29
+
+<./prise.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 304--304
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[30
+
+Missing character: There is no ’ (U+2019) in font ec-lmss10!
+Missing character: There is no ’ (U+2019) in font ec-lmss10!
+Missing character: There is no ’ (U+2019) in font ec-lmss10!
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 310--310
+ [][][][]  
+ []
+
+<clim.jpg, id=964, 602.25pt x 250.9375pt>
+File: clim.jpg Graphic file (type jpg)
+<use clim.jpg>
+Package luatex.def Info: clim.jpg  used on input line 310.
+(luatex.def)             Requested size: 273.84956pt x 174.59824pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[31
+
+<./clim.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 315--315
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[32
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 324--324
+ [][][][]  
+ []
+
+<plaqueessai.jpg, id=1022, 803.0pt x 803.0pt>
+File: plaqueessai.jpg Graphic file (type jpg)
+<use plaqueessai.jpg>
+Package luatex.def Info: plaqueessai.jpg  used on input line 324.
+(luatex.def)             Requested size: 136.91254pt x 99.76212pt.
+<connecteurs.jpg, id=1023, 501.875pt x 501.875pt>
+File: connecteurs.jpg Graphic file (type jpg)
+<use connecteurs.jpg>
+Package luatex.def Info: connecteurs.jpg  used on input line 324.
+(luatex.def)             Requested size: 136.91713pt x 99.76057pt.
+<domino.jpg, id=1024, 698.61pt x 392.46625pt>
+File: domino.jpg Graphic file (type jpg)
+<use domino.jpg>
+Package luatex.def Info: domino.jpg  used on input line 324.
+(luatex.def)             Requested size: 136.91595pt x 99.76315pt.
+<cable.jpg, id=1025, 451.6875pt x 451.6875pt>
+File: cable.jpg Graphic file (type jpg)
+<use cable.jpg>
+Package luatex.def Info: cable.jpg  used on input line 324.
+(luatex.def)             Requested size: 136.92018pt x 99.7644pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[33
+
+<./plaqueessai.jpg><./connecteurs.jpg><./domino.jpg><./cable.jpg>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 331--331
+ [][][][]  
+ []
+
+<appclimallu.png, id=1054, 243.91125pt x 414.04688pt>
+File: appclimallu.png Graphic file (type png)
+<use appclimallu.png>
+Package luatex.def Info: appclimallu.png  used on input line 331.
+(luatex.def)             Requested size: 164.30174pt x 194.54518pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[34
+
+<./appclimallu.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 335--335
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[35
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 341--341
+ [][][][]  
+ []
+
+<synoptique.png, id=1112, 572.1375pt x 359.09157pt>
+File: synoptique.png Graphic file (type png)
+<use synoptique.png>
+Package luatex.def Info: synoptique.png  used on input line 341.
+(luatex.def)             Requested size: 273.83716pt x 174.59206pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[36
+
+<./synoptique.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 348--348
+ [][][][]  
+ []
+
+<organigramme.png, id=1144, 289.08pt x 435.12563pt>
+File: organigramme.png Graphic file (type png)
+<use organigramme.png>
+Package luatex.def Info: organigramme.png  used on input line 348.
+(luatex.def)             Requested size: 260.15636pt x 194.54321pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[37
+
+<./organigramme.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 354--354
+ [][][][]  
+ []
+
+<schema.png, id=1176, 713.66624pt x 489.32813pt>
+File: schema.png Graphic file (type png)
+<use schema.png>
+Package luatex.def Info: schema.png  used on input line 354.
+(luatex.def)             Requested size: 308.05746pt x 194.54807pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[38
+
+<./schema.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 358--358
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[39
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 366--366
+ [][][][]  
+ []
+
+<appclimetei.png, id=1236, 249.18094pt x 412.54124pt>
+File: appclimetei.png Graphic file (type png)
+<use appclimetei.png>
+Package luatex.def Info: appclimetei.png  used on input line 366.
+(luatex.def)             Requested size: 102.68953pt x 199.5346pt.
+File: appclimallu.png Graphic file (type png)
+<use appclimallu.png>
+Package luatex.def Info: appclimallu.png  used on input line 366.
+(luatex.def)             Requested size: 102.69138pt x 199.53629pt.
+<appclim.png, id=1237, 245.41687pt x 409.53pt>
+File: appclim.png Graphic file (type png)
+<use appclim.png>
+Package luatex.def Info: appclim.png  used on input line 366.
+(luatex.def)             Requested size: 102.68866pt x 199.53415pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[40
+
+<./appclimetei.png><./appclim.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 370--370
+ [][][][]  
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+70.
+("C:/Program Files/MiKTeX/tex/latex/lm/t1lmtt.fd"
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[41
+
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 376--376
+ [][][][]  
+ []
+
+<1blocks.png, id=1299, 657.45625pt x 65.24374pt>
+File: 1blocks.png Graphic file (type png)
+<use 1blocks.png>
+Package luatex.def Info: 1blocks.png  used on input line 376.
+(luatex.def)             Requested size: 342.30057pt x 74.82562pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[42
+
+<./1blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 382--382
+ [][][][]  
+ []
+
+<2blocks.png, id=1329, 873.2625pt x 247.92625pt>
+File: 2blocks.png Graphic file (type png)
+<use 2blocks.png>
+Package luatex.def Info: 2blocks.png  used on input line 382.
+(luatex.def)             Requested size: 342.28992pt x 149.64969pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[43
+
+<./2blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 388--388
+ [][][][]  
+ []
+
+<3blocks.png, id=1359, 483.8075pt x 117.43875pt>
+File: 3blocks.png Graphic file (type png)
+<use 3blocks.png>
+Package luatex.def Info: 3blocks.png  used on input line 388.
+(luatex.def)             Requested size: 342.3098pt x 74.82542pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[44
+
+<./3blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 394--394
+ [][][][]  
+ []
+
+<4blocks.png, id=1389, 474.77374pt x 90.3375pt>
+File: 4blocks.png Graphic file (type png)
+<use 4blocks.png>
+Package luatex.def Info: 4blocks.png  used on input line 394.
+(luatex.def)             Requested size: 342.30772pt x 74.8257pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[45
+
+<./4blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 400--400
+ [][][][]  
+ []
+
+<5blocks.png, id=1419, 479.7925pt x 90.3375pt>
+File: 5blocks.png Graphic file (type png)
+<use 5blocks.png>
+Package luatex.def Info: 5blocks.png  used on input line 400.
+(luatex.def)             Requested size: 342.30228pt x 74.8257pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[46
+
+<./5blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 406--406
+ [][][][]  
+ []
+
+<6blocks.png, id=1449, 443.6575pt x 26.0975pt>
+File: 6blocks.png Graphic file (type png)
+<use 6blocks.png>
+Package luatex.def Info: 6blocks.png  used on input line 406.
+(luatex.def)             Requested size: 342.29428pt x 24.94418pt.
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[47
+
+<./6blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 412--412
+ [][][][]  
+ []
+
+<7blocks.png, id=1479, 1364.09625pt x 1092.08pt>
+File: 7blocks.png Graphic file (type png)
+<use 7blocks.png>
+Package luatex.def Info: 7blocks.png  used on input line 412.
+(luatex.def)             Requested size: 342.29291pt x 199.53207pt.
+
+Overfull \vbox (1.52773pt too high) detected at line 412
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[48
+
+<./7blocks.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 418--418
+ [][][][]  
+ []
+
+<code1.png, id=1509, 581.17125pt x 365.11406pt>
+File: code1.png Graphic file (type png)
+<use code1.png>
+Package luatex.def Info: code1.png  used on input line 418.
+(luatex.def)             Requested size: 308.06363pt x 199.53197pt.
+
+Overfull \vbox (1.52762pt too high) detected at line 418
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[49
+
+<./code1.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 424--424
+ [][][][]  
+ []
+
+<code2.png, id=1541, 560.0925pt x 328.97906pt>
+File: code2.png Graphic file (type png)
+<use code2.png>
+Package luatex.def Info: code2.png  used on input line 424.
+(luatex.def)             Requested size: 308.07745pt x 199.53743pt.
+
+Overfull \vbox (1.53308pt too high) detected at line 424
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[50
+
+<./code2.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 430--430
+ [][][][]  
+ []
+
+<code3.png, id=1573, 582.67688pt x 333.49594pt>
+File: code3.png Graphic file (type png)
+<use code3.png>
+Package luatex.def Info: code3.png  used on input line 430.
+(luatex.def)             Requested size: 308.07043pt x 199.53426pt.
+
+Overfull \vbox (1.5299pt too high) detected at line 430
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[51
+
+<./code3.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 436--436
+ [][][][]  
+ []
+
+<code4.png, id=1606, 634.62094pt x 319.1925pt>
+File: code4.png Graphic file (type png)
+<use code4.png>
+Package luatex.def Info: code4.png  used on input line 436.
+(luatex.def)             Requested size: 308.07161pt x 199.53378pt.
+
+Overfull \vbox (1.52943pt too high) detected at line 436
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[52
+
+<./code4.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 442--442
+ [][][][]  
+ []
+
+<code5.png, id=1638, 558.58687pt x 333.49594pt>
+File: code5.png Graphic file (type png)
+<use code5.png>
+Package luatex.def Info: code5.png  used on input line 442.
+(luatex.def)             Requested size: 308.07607pt x 199.53426pt.
+
+Overfull \vbox (1.5299pt too high) detected at line 442
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[53
+
+<./code5.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 448--448
+ [][][][]  
+ []
+
+<code6.png, id=1670, 528.47438pt x 411.03563pt>
+File: code6.png Graphic file (type png)
+<use code6.png>
+Package luatex.def Info: code6.png  used on input line 448.
+(luatex.def)             Requested size: 308.06361pt x 199.52765pt.
+
+Overfull \vbox (1.5233pt too high) detected at line 448
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[54
+
+<./code6.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 454--454
+ [][][][]  
+ []
+
+<code7.png, id=1702, 577.40718pt x 240.14719pt>
+File: code7.png Graphic file (type png)
+<use code7.png>
+Package luatex.def Info: code7.png  used on input line 454.
+(luatex.def)             Requested size: 308.0772pt x 199.53462pt.
+
+Overfull \vbox (1.53027pt too high) detected at line 454
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[55
+
+<./code7.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 460--460
+ [][][][]  
+ []
+
+<code8.png, id=1734, 581.17125pt x 298.11375pt>
+File: code8.png Graphic file (type png)
+<use code8.png>
+Package luatex.def Info: code8.png  used on input line 460.
+(luatex.def)             Requested size: 308.06363pt x 199.53047pt.
+
+Overfull \vbox (1.52612pt too high) detected at line 460
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[56
+
+<./code8.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 466--466
+ [][][][]  
+ []
+
+<load.png, id=1766, 493.845pt x 263.48438pt>
+File: load.png Graphic file (type png)
+<use load.png>
+Package luatex.def Info: load.png  used on input line 466.
+(luatex.def)             Requested size: 308.05705pt x 199.54259pt.
+
+Overfull \vbox (1.53824pt too high) detected at line 466
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[57
+
+<./load.png>]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 473--473
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[58
+
+Missing character: There is no ’ (U+2019) in font ec-lmss10!
+]
+Overfull \hbox (78.67197pt too wide) in paragraph at lines 481--481
+ [][][][]  
+ []
+
+
+Overfull \hbox (78.67197pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[59
+
+]
+\tf@nav=\write6
+
+\openout6 = first_exposed.nav
+\tf@toc=\write7
+
+\openout7 = first_exposed.toc
+\tf@snm=\write8
+
+\openout8 = first_exposed.snm
+(./first_exposed.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+Package rerunfilecheck Info: File `first_exposed.out' has not changed.
+(rerunfilecheck)             Checksum: 6D5B9E835A144342F01087BC6F0F083C;1905.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 33931 strings out of 476435
+ 100000,1977958 words of node,token memory allocated
+ 5363 words of node memory still in use:
+   46 hlist, 11 vlist, 9 rule, 14 disc, 9 local_par, 8 math, 115 glue, 17 kern, 
+29 penalty, 194 glyph, 664 attribute, 78 glue_spec, 97 attribute_list, 4 write, 
+2 pdf_start_link, 2 pdf_end_link, 2 pdf_action, 36 pdf_colorstack nodes
+   avail lists: 2:4988,3:757,4:424,5:264,6:99,7:3844,8:28,9:919,10:16,11:253
+ 54787 multiletter control sequences out of 65536+600000
+ 41 fonts using 2653639 bytes
+ 128i,16n,116p,1102b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKT
+eX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/l
+mss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program 
+Files/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type
+1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on first_exposed.pdf (59 pages, 3286466 bytes).
+
+PDF statistics: 1887 PDF objects out of 2073 (max. 8388607)
+ 134 named destinations out of 1000 (max. 131072)
+ 276 words of extra memory for PDF output out of 10000 (max. 100000000)
+

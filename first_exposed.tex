@@ -1,0 +1,483 @@
+\documentclass{beamer}
+
+\usetheme{EastLansing}
+\setbeamertemplate{frame numbering}[fraction]
+\setbeamercolor{background canvas}{bg=green!5!white}
+\setbeamertemplate{blocks }[color=green!5!white]
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\usefonttheme{professionalfonts}
+
+
+\definecolor{ao}{rgb}{0.0, 0.0, 1.0}
+\definecolor{forestgreen(web)}{rgb}{0.13, 0.55, 0.13}
+\definecolor{white}{rgb}{1.0, 1.0, 1.0}
+\definecolor{yaleblue}{rgb}{0.06, 0.3,0.57}
+\definecolor{xanadu}{rgb}{0.45, 0.53,0.47}
+\definecolor{arsenic}{rgb}{0.23, 0.27,0.29}
+\definecolor{blue-violet}{rgb}{0.54,0.17, 0.89}
+
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{geometry}
+\usepackage{wrapfig}
+\usepackage[french,english]{babel}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{listing,listings}
+\usepackage{listingsutf8,lipsum}
+\usepackage[breakable, skins]{tcolorbox}
+\usecolortheme[named=forestgreen(web)]{structure}
+\usepackage{ragged2e}
+\batchmode
+\usepackage{multicol}
+
+
+
+% Boîte type générique
+\newtcolorbox{boitetype}[4][]{enhanced, before upper = {\parindent10pt}, beforeafter skip = \baselineskip, colframe = #3, colback = #4, boxrule = 2pt, arc = 2mm, fonttitle = \bfseries, title = {#2},coltitle = black, #1}{\centering}
+
+% La boîte utilisée
+\newenvironment{boite}[3][]{\begin{boitetype}[#1]{#2}{#3}{white}}{\end{boitetype}}
+
+
+
+\title{Commande éclairage et contrôle température sur smartphone avec Arduino}
+\date{\today}
+
+
+\begin{document}
+	\begin{frame}	
+		\begin{center}
+			\begin{minipage}[h]{0.2\textwidth}
+				\includegraphics[scale=0.35]{logo_iug.png}
+			\end{minipage}
+			\begin{minipage}[h]{0.45\textwidth}
+				\centering
+				\textbf{INSTITUT UNIVERSITAIRE \\DU GOLFE DE GUINEE} \\
+				\begin{minipage}[t]{1\textwidth}
+					\centering
+					\footnotesize \textbf{INSTITUT SUPERIEUR DES \\TECHNOLOGIES AVANCEES}
+				\end{minipage}
+			\end{minipage}
+			\begin{minipage}[h]{0.1\textwidth}
+				\includegraphics[scale=0.30]{logo_ista.png}
+			\end{minipage}
+		\end{center}
+		\begin{titlepage}
+		\end{titlepage}
+	\end{frame}
+	
+	\begin{frame}{Les Participants}
+		Exposé encadré par Monsieur
+		\begin{enumerate}
+			\item KAMGANG Pierre
+		\end{enumerate}
+		\vspace{4pt}
+		 Professeur chez \textbf{IUG-ISTA}.\\
+		\vspace{20pt}
+		Exposé réalisé par
+		\begin{enumerate}
+			\item Yokwe Raoul Giresse
+			\item Bidias Abang Donald
+			\item Tchuenkam Djoko Arnold Steve
+			\item Fotie Serges Magloire
+		\end{enumerate}
+		\vspace{4pt}
+		Étudiants chez \textbf{IUG-ISTA} en classe de \textbf{IIA1S}.
+	\end{frame}
+	
+
+
+\frame{
+	\frametitle{Table de matières}
+
+	\begin{multicols}{2}
+		\tableofcontents
+	\end{multicols}
+\section{Introduction}
+	\subsection{Contexte}
+	\subsection{Objectif}
+	\subsection{Description de l'exposé}
+	\subsection{Avantages}
+	\subsection{Inconvénients}
+\section{Mise en oeuvre}
+	\subsection{Solutions matérielles}
+	\subsection{Solutions logicielles}
+	\subsection{Schéma synoptique}
+	\subsection{Organigramme}
+	\subsection{Schéma électrique}
+	\subsection{Fonctionnement}
+\section{Conclusion}
+\section{Liens utiles}
+
+}
+
+	
+	\begin{frame}{Introduction}{Contexte}
+		La domotique est un excellent moyen pour contrôler ses dépenses énergétiques, que ce soit pour les systèmes de chauffage, l'éclairage ou bien d'autres. Les nouvelles technologies offrent des appareils toujours plus précis pour, superviser, automatiser, commander à distance l'extinction des lumières, la fermeture des volets, etc… Aussi, les logiciels facilitent beaucoup de taches quotidiennes de l'être humain où il est devenu indépendant par rapport au contrôle des équipements utilisés.
+	\end{frame}
+	
+	\begin{frame}{Introduction}{Objectif}
+		Dans le cadre de notre première année en cycle \textbf{BTS} en Informatique Industrielle et Automatisme à \textbf{ISTA}, il nous est proposé,  de mettre en pratique nos connaissances et nos compétences professionnelles pour montrer une face de l'Arduino en domotique.
+	\end{frame}
+	
+	\begin{frame}{Introduction}{Description de l'exposé}
+		Les Smartphones sont adoptés par le grand public pour des fins journalières, avec le développement des applications et les moyens de connectivité tels que le WIFI, l'infrarouge et le Bluetooth, le Smartphone devient une télé commande universelle pour les équipements électrique et électronique.
+		Ayant une passion commune pour la programmation sur Arduino et la domotique. Étant pour le moment dans un exposé universitaire, en phase d'initiation, limité en moyens et en temps, nous avons décidé de restreindre notre travail, à développer dans un premier temps une application Android et un programme fonctionnant avec une carte Arduino UNO afin de contrôler un climatiseur, commander une lampe via Bluetooth, ensuite on passe à la réalisation.
+		
+	\end{frame}
+	
+	\begin{frame}{Introduction}{Avantages}
+		\begin{enumerate}
+			\item Le confort de vie;
+			\item Sécurité;
+			\item Gain de temps;
+			\item Économie d’argent et d'énergie;
+		\end{enumerate}
+	\end{frame}
+	
+	\begin{frame}{Introduction}{Inconvénients}
+		\begin{enumerate}
+			\item Le prix des équipements domotiques reste assez élevé;
+			\item La durée de vie des équipements domotiques est limitée;
+			%\item Système bloqué;
+			%\item Accès difficile;
+			\item Risques de piratage;
+		\end{enumerate}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Carte Arduino Uno}
+		\begin{figure}\centering
+			\includegraphics[width=1\linewidth, height=0.8\textheight]{arduino.png}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Carte Arduino Uno}
+		Une carte Arduino est carte électronique équipée d'un micro-contrôleur programmable. Le micro-contrôleur permet, à partir d'événements détectés par des capteurs, de programmer et commander des actionneurs.	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module Buetooth HC-05}
+		\begin{figure}\centering
+			\includegraphics[width=1\linewidth, height=0.7\textheight]{HC-05.png}
+		\end{figure}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module Buetooth HC-05}
+		Le Bluetooth est un standard de communication sans fil à très courte distance entre les périphériques électroniques. Dans notre projet, nous allons utilisé un module HC-05. Tous les modules Bluetooth HC-05 possèdent la même configuration. Le nom du module est \textbf{HC 05} et le code d'appareillage est \textbf{1234}. Aussi, une des particularités du module Bluetooth HC-05 est qu'il peut être utilisé en mode esclave ou en mode maître, en d'autres termes, le HC-05  peut être configurer en tant qu'émetteur ou en tant que récepteur, ou même en tant
+		que point d'accès.
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module Buetooth HC-05}
+		Le module Bluetooth HC-05 présente 6 broches pour permettre d'établir la connexion :
+		\begin{enumerate}
+			\item VCC: broche d'alimentation. Typiquement connectée à la broche 5V de l'Arduino.
+			\item GND: masse. Typiquement connectée à la broche GND de l'Arduino.
+			\item RX: broche de réception. Typiquement connecté à la broche de transmission (TX) de l'Arduino.
+			\item TX: broche de transmission. Typiquement connecté à la broche de réception (RX) de l'Arduino.
+			\item State: sortie pour indiquer l'état du module (en attente, connecté, etc.)
+			\item Enable: entrée pour activer ou désactiver le module.
+		\end{enumerate}
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module DHT11}
+		\begin{figure}\centering
+			\includegraphics[width=0.9\linewidth, height=0.5\textheight]{dht11.jpg}
+		\end{figure}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module DHT11}
+		Le capteur DHT11 mesure la température et l'humidité. Son principe de fonctionnement est le suivant:
+		\begin{enumerate}
+			\item Le DHT11 utilise une technologie capacitive pour mesurer l'humidité relative dans l'air. Il comporte une électrode qui est exposée à l'air ambiant, qui est reliée à un circuit électronique intégré. Lorsque l'air est plus humide, l'électrode est recouverte d'une couche d'eau qui augmente la capacité de l'électrode. Le circuit électronique intégré mesure cette capacité et calcule l'humidité relative en fonction de cette mesure.
+			\item Pour mesurer la température, le DHT11 utilise un thermistor, qui est un composant qui a une résistance qui varie en fonction de la température. Le circuit électronique intégré mesure la résistance du thermistor et calcule la température en utilisant une courbe de température calibrée.
+		\end{enumerate}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module DHT11}	
+		Les données de température et d'humidité sont ensuite transmises à l'Arduino via un signal numérique sur un seul fil, qui peut être lu par la bibliothèque DHT11 pour obtenir les lectures de température et d'humidité.\vspace{4pt}\linebreak
+		Le brochage du DHT11 est:
+		\begin{enumerate}
+			\item VCC: C'est la broche d'alimentation qui doit être connectée à une source de tension de 3 à 5V pour alimenter le capteur.
+			\item  Data: C'est la broche de communication qui est utilisée pour envoyer les données de température et d'humidité au dispositif connecté.
+			\item GND: C'est la broche de masse qui doit être connectée à la masse du dispositif connecté pour assurer une bonne connexion électrique.
+		\end{enumerate}
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module relais 5v}
+		\begin{figure}\centering
+			\includegraphics[width=0.8\linewidth, height=0.7\textheight]{relais.png}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module relais 5v}
+		\begin{figure}\centering
+			\includegraphics[width=0.7\linewidth, height=0.7\textheight]{relaissym.png}
+			{Exemple de symbole}
+		\end{figure}
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Module relais 5v}
+		Le module de relais 5V contrôlable qui permet d'isoler la partie commande de la partie puissance. Ici le circuit de commande est la carte Arduino et le circuit de puissance est la lampe 230V, le climatiseur. Son câblage avec Arduino est:
+		\begin{enumerate}
+			\item Connecter les broches VCC et GND du module relais aux broches 5V et GND de l'Arduino.
+			\item Connecter la broche S du module relais à une broche de sortie numérique de l'Arduino.
+			\item Connecter les broches NO et COM du module relais à la charge.
+		\end{enumerate}
+	\end{frame}
+	
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Disjoncteur Phase-Neutre(DPN)}
+		\begin{figure}\centering
+			\includegraphics{disj.png}
+		\end{figure}	
+	\end{frame}
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Disjoncteur Phase-Neutre(DPN)}
+		\begin{figure}\centering
+			\includegraphics[width=0.6\linewidth, height=0.6\textheight]{disjsym.jpg}
+			{Symbole électrique}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Disjoncteur Phase-Neutre(DPN)}
+		Un disjoncteur est un interrupteur électrique à commande automatique conçu pour laisser circuler le courant électrique, et, protéger un circuit électrique et les personnes contre les dommages causés par un courant excessif provenant d'une surcharge, d'un court-circuit ou d'une fuite à la terre (disjoncteur différentiel). Il est également utile pour isoler électriquement le circuit en cas de dépannage.
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Boîte de dérivation étanche}
+		\begin{figure}\centering
+			\includegraphics{boite.jpg}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Boîte de dérivation étanche}
+		Destinées à recevoir et à protéger des éléments de jonction électriques à installer dans les locaux domestiques ou industriels. Dimensions(mm): 100x140x60.
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Lampe LED 230V}
+		\begin{figure}\centering
+			\includegraphics[width=0.6\linewidth, height=0.6\textheight]{lampe.png}
+		\end{figure}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Lampe LED 230V}
+		LED signifie diode électroluminescente. Une lampe LED produit de la lumière en faisant passer le courant électrique à travers un matériau semi-conducteur, la diode, qui émet ensuite la lumière lorsqu'elle est alimentée( principe de l'électroluminescence). Les LED sont économique car avec seulement 7W, on économise 80\% d'énergie. Caractéristiques: 
+		\begin{enumerate}
+			\item En plastique à l’extérieur et châssis en aluminium.
+			\item Puissance : 7W.
+			\item Tension : 170-240V.
+			\item Intensité lumineuse : 90 lumen.
+		\end{enumerate}   	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Douille électrique}
+		\begin{figure}\centering
+			\includegraphics{douille.jpg}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Douille électrique}
+		En éclairage, c'est un support en plastique à l'extérieur et châssis en aluminium permettant la fixation du culot d'une lampe électrique.
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: prise électrique 2P+T}
+		\begin{figure}\centering
+			\includegraphics[width=0.6\linewidth, height=0.6\textheight]{prise.jpg}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: prise électrique 2P+T}
+		Une prise électrique est un connecteur permettant de relier des appareils électriques, domestiques ou industriels, au réseau électrique. Elle est directement reliée au tableau électrique par un circuit électrique. Composition de la prise 3P+T :
+		\begin{enumerate}
+			\item La borne de phase L, qui alimente en énergie l’appareil branché.
+			\item 	La borne neutre N, qui permet au courant de retourner vers le circuit une fois l’appareil alimenté.
+			\item La borne de terre (fil vert-jaune),  associée à une protection différentielle, elle protège l’utilisateur en cas de défaut d'isolement.
+		\end{enumerate}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Climatiseur}
+		\begin{figure}\centering
+			\includegraphics[width=0.8\linewidth, height=0.7\textheight]{clim.jpg}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Climatiseur}
+		Le climatiseur est un équipement indispensable dans de nombreux endroits pour réguler la température et l'humidité de l'air. La régulation de la température est l'un des principaux rôles du climatiseur. Lorsqu'il fait chaud à l'extérieur, l'air chaud peut pénétrer dans un bâtiment, augmentant ainsi la température intérieure. Le climatiseur abaisse la température en absorbant l'air chaud de la pièce et en le refroidissant avant de le faire circuler dans la pièce. Il maintient une température confortable pour les occupants du bâtiment, ce qui est important pour les appareillages électriques, électroniques, informatique qui doivent fonctionner dans les environnement à température acceptable.
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Accessoires de raccordement}
+		\centering
+		\includegraphics[width=0.4\linewidth, height=0.4\textheight]{plaqueessai.jpg}
+		\includegraphics[width=0.4\linewidth, height=0.4\textheight]{connecteurs.jpg}
+		\includegraphics[width=0.4\linewidth, height=0.4\textheight]{domino.jpg}
+		\includegraphics[width=0.4\linewidth, height=0.4\textheight]{cable.jpg}
+		
+	\end{frame}
+		
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles : Smartphone}
+		\begin{figure}\centering
+			\includegraphics[width=0.48\linewidth, height=0.78\textheight]{appclimallu.png}
+		\end{figure}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Solutions matérielles: Smartphone}
+		Sera utile pour la commande et l'acquisition des données.
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Schéma synoptique}
+		\begin{figure}\centering
+			\includegraphics[width=0.8\linewidth, height=0.7\textheight, clip]{synoptique.png}
+		\end{figure}	
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Organigramme}
+		\begin{figure}
+			\includegraphics[width=0.76\linewidth, height=0.78\textheight, clip]{organigramme.png}
+		\end{figure}
+		
+	\end{frame}
+	
+	\begin{frame}{Mise en oeuvre}{Schéma électrique}
+		\begin{figure}\centering
+			\includegraphics[width=0.9\linewidth, height=0.78\textheight, clip]{schema.png}
+		\end{figure}	
+	\end{frame}
+	
+\begin{frame}{Mise en oeuvre}{Fonctionnement}
+	Des la mise sous tension du système, la lampe 230V est éteinte, le module DHT11 transmet les données relatives à la température de la salle au module Arduino, qui peut être visible sur le moniteur série de l'IDE Arduino, aussi le climatiseur peut être en marche ou en arrêt car sa mise en route dépend de la température de la salle. Par contre le module Bluetooth HC-05 se met à clignoter, attendant un appairage Bluetooth. Lorsqu'un utilisateur à partir de l'application sur son Smartphone clic sur le bouton  \textbf{"Connection"}, une liste de Bluetooth visible et disponible à sa portée s'affiche; un choix lié au module Bluetooth HC-05 permet la connection. Une fois connecté, la température du local et l'état actuel du climatiseur s'afficheront directement sur son écran. Un appui sur le bouton \textbf{"Allumer"} met la lampe 230V en marche, par contre un appui sur le bouton \textbf{"Eteindre"} permet de l'éteindre. Enfin, une action sur le bouton \textbf{"Déconnection"} provoque la perte de connectivité entre le module Bluetooth et le Smartphone.
+\end{frame}
+
+	\begin{frame}{Mise en oeuvre}{Etats possibles de l'application Home\_Control}
+	\centering
+	\includegraphics[width=0.3\linewidth, height=0.8\textheight]{appclimetei.png}
+	\includegraphics[width=0.3\linewidth, height=0.8\textheight]{appclimallu.png}
+	\includegraphics[width=0.3\linewidth, height=0.8\textheight]{appclim.png}
+	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	Pour développer notre application nous avons opté pour un environnement de programmation visuel et intuitif: \textbf{MIT App Inventor}. Ce site disponible ici \textcolor{blue}{\url{https://appinventor.mit.edu/}}, met à notre disposition les blocks où avec une logique de programmation, facilitent la création d'applications en beaucoup moins de temps. Vous verrez ci-dessous comment nous avons utiliser ces blocks pour notre application nommée: \textbf{Home\_Control}.
+\end{frame}
+
+	\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.3\textheight]{1blocks.png}
+	\end{figure}	
+\end{frame}
+
+	\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.6\textheight]{2blocks.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.3\textheight]{3blocks.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.3\textheight]{4blocks.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.3\textheight]{5blocks.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.1\textheight]{6blocks.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solutions logicielles: Application Androïde}
+	\begin{figure}\centering
+		\includegraphics[width=1\linewidth, height=0.8\textheight]{7blocks.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code1.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code2.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code3.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code4.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code5.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code6.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code7.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Solution logicielle: Programme Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{code8.png}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Mise en oeuvre}{Charger le code au microcontrôleur de la carte Arduino}
+	\begin{figure}\centering
+		\includegraphics[width=0.9\linewidth, height=0.8\textheight, clip]{load.png}
+	\end{figure}	
+\end{frame}
+	
+
+
+\begin{frame}{Conclusion}
+L'accomplissement de cet exposé dans le cadre de la commande d'éclairage et contrôle température sur Smartphone avec Arduino, nous a permis de nous introduire côté logiciel dans la programmation d'Arduino avec son IDE, Mit App Inventor. Ainsi que du matériel tel que l’Arduino UNO, capteur de température DHT11, module Bluetooth HC-05 et différents composants électroniques et électriques.
+Comme amélioration à ce travail nous comptons ne pas limiter le système à une salle, introduire un module wifi ou le GSM qui permet la couverture d'une plus grande zone, développer une application plus sécurisante en version mobile et Web.
+\end{frame}
+
+\begin{frame}{Liens utiles}
+	\textbf{Arduino Documentation}[en ligne]\\
+	Disponible sur: $\rightarrow{}$\textcolor{blue}{\url{https://www.arduino.cc/}}\\
+	\vspace{10pt}
+	\textbf{MIT App Inventor} Environnement de programmation visuel[en ligne] \\
+	Disponible sur: $\rightarrow{}$\textcolor{blue}{\url{https://appinventor.mit.edu/}}
+\end{frame}
+	
+\end{document}
